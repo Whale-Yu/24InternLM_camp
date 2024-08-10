@@ -24,7 +24,8 @@
 | 第2关 | 8G显存玩转书生大模型Demo  | [点我](笔记/L1-02-demo.md)        |
 | 第3关 | 浦语提示词工程实践  | [点我](笔记/L1-03-Prompt.md)      |
 | 第4关 | InternLM+LlamaIndex RAG实践 | [点我](笔记/L1-04-LlamaIndex.md)  |
-| 第5关 | XTuner微调个人小助手认知  | [点我](笔记/L1-05-XTuner.md)               |
+| 第5关 | XTuner微调个人小助手认知  | [点我](笔记/L1-05-XTuner.md)      |
+| 第6关 | OpenCompass评测InternLM-1.8B实践  | [点我](笔记/L1-06-OpenCompass.md)              |
 
 
 ## 敬请期待
