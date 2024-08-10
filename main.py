@@ -4,13 +4,19 @@
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+import requests
+url = 'https://ai.yunpengai.com/labelsysapi/dataset-clustering/submit'
+data = {
+    "algorithme": "kmeans",
+    "clusterClass": "2",
+    "modelName": "efficientnet-b3",
+    "modelPath": "/data/html/dish.pth",
+    "numsClass": "2306",
+    "datasetId": "509",
+    "labelId": "1013488",
+    "groupId": "1811949036347392002"
+}
 
+resp=requests.post(url, data)
+print(resp)
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
