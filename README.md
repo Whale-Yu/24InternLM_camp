@@ -3,7 +3,8 @@
 ## 官方文档：
 - 闯关手册：https://aicarrier.feishu.cn/wiki/KFBSwxJ3Riu3uWkIN1jcyBoWnyf
 - internStudio：https://studio.intern-ai.org.cn/console/dashboard
-- github：https://github.com/InternLM/
+- InternLMgithub：https://github.com/InternLM/
+- 实战营github：https://github.com/InternLM/Tutorial/tree/camp3
 
 ## 通关笔记地址
 
