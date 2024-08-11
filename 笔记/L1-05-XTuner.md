@@ -55,8 +55,7 @@ tree -l
 ```yaml
 streamlit run /root/InternLM/Tutorial/tools/xtuner_streamlit_demo.py
 ```
-
-![img_1.png](assets/L10502.png)
+![img_1.png](assets/img_1.png)
 
 ## 指令跟随微调
 ### 1）准备数据文件
@@ -87,6 +86,7 @@ xtuner copy-cfg internlm2_chat_1_8b_qlora_alpaca_e3 .
 ```
 对配置文件进行修改:
 ![img_3.png](assets/L10504.png)
+![img_2.png](assets/img_2.png)
 ![img_4.png](assets/L10505.png)
 
 ### 3）启动微调
@@ -136,6 +136,5 @@ cp /root/InternLM/Tutorial/tools/xtuner_streamlit_demo.py /root/InternLM/Tutoria
 streamlit run /root/InternLM/Tutorial/tools/xtuner_streamlit_demo_finetune.py
 ```
 
-![img_1.png](assets/L10508.png)
+![img_3.png](assets/img_3.png)
 
-貌似有点不聪明的样子，但是过程全是参考文档的
