@@ -1,4 +1,4 @@
-# 书生大模型实战营-个人仓库
+# 书生大模型实战营-蟹老板
 
 ## 官方文档：
 - 闯关手册：https://aicarrier.feishu.cn/wiki/KFBSwxJ3Riu3uWkIN1jcyBoWnyf
