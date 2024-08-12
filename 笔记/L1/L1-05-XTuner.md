@@ -48,14 +48,14 @@ ln -s /root/share/new_models/Shanghai_AI_Laboratory/internlm2-chat-1_8b Shanghai
 apt-get install -y tree
 tree -l
 ```
-![img.png](assets/L10501.png)
+![img.png](../assets/L10501.png)
 
 
 ## 微雕前的模型
 ```yaml
 streamlit run /root/InternLM/Tutorial/tools/xtuner_streamlit_demo.py
 ```
-![img_1.png](assets/img_1.png)
+![img_1.png](../assets/img_1.png)
 
 ## 指令跟随微调
 ### 1）准备数据文件
@@ -73,7 +73,7 @@ cp /root/InternLM/Tutorial/tools/xtuner_generate_assistant.py ./
 python xtuner_generate_assistant.py
 ```
 数据文件如下：
-![img_2.png](assets/L10503.png)
+![img_2.png](../assets/L10503.png)
 
 ### 2）准备配置文件
 列出支持的配置文件：
@@ -85,15 +85,15 @@ tuner list-cfg -p internlm2
 xtuner copy-cfg internlm2_chat_1_8b_qlora_alpaca_e3 .
 ```
 对配置文件进行修改:
-![img_3.png](assets/L10504.png)
-![img_2.png](assets/img_2.png)
-![img_4.png](assets/L10505.png)
+![img_3.png](../assets/L10504.png)
+![img_2.png](../assets/img_2.png)
+![img_4.png](../assets/L10505.png)
 
 ### 3）启动微调
 ```yaml
 xtuner train ./internlm2_chat_1_8b_qlora_alpaca_e3_copy.py
 ```
-![img_5.png](assets/L10506.png)
+![img_5.png](../assets/L10506.png)
 
 
 
@@ -129,12 +129,12 @@ xtuner convert merge /root/InternLM/XTuner/Shanghai_AI_Laboratory/internlm2-chat
 cp /root/InternLM/Tutorial/tools/xtuner_streamlit_demo.py /root/InternLM/Tutorial/tools/xtuner_streamlit_demo_finetune.py
 ```
 
-![img.png](assets/L10507.png)
+![img.png](../assets/L10507.png)
 
 
 ```
 streamlit run /root/InternLM/Tutorial/tools/xtuner_streamlit_demo_finetune.py
 ```
 
-![img_3.png](assets/img_3.png)
+![img_3.png](../assets/img_3.png)
 

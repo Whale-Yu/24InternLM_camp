@@ -2,7 +2,7 @@
 
 ## 0、背景
 试了一下，确实会出现错误。
-![img.png](assets/L10301.png)
+![img.png](../assets/L10301.png)
 
 ## 1、环境准备
 虚拟环境配置：
@@ -89,12 +89,12 @@ ssh -p 42656 root@ssh.intern-ai.org.cn -CNg -L 7860:127.0.0.1:8501  -o StrictHos
 # 本地访问http://localhost:7860/
 ```
 运行成功：
-![img.png](assets/L10302.png)
+![img.png](../assets/L10302.png)
 
 ## 4、提示词设置
 没有提示词的效果:
-![img_1.png](assets/L10303.png)
+![img_1.png](../assets/L10303.png)
 添加提示词的效果：
-![img_2.png](assets/L10304.png)
+![img_2.png](../assets/L10304.png)
 
-[提示词txt文件](assets/提示词.txt)
+[提示词txt文件](../assets/提示词.txt)

@@ -20,25 +20,26 @@
 
 | 序号  | 名称         | 笔记链接                          |
 |-----|------------|-------------------------------|
-| 第1关 | 书生大模型全链路开源体系  | [点我](笔记/L1-01-HelloIntern.md) |
-| 第2关 | 8G显存玩转书生大模型Demo  | [点我](笔记/L1-02-demo.md)        |
-| 第3关 | 浦语提示词工程实践  | [点我](笔记/L1-03-Prompt.md)      |
-| 第4关 | InternLM+LlamaIndex RAG实践 | [点我](笔记/L1-04-LlamaIndex.md)  |
-| 第5关 | XTuner微调个人小助手认知  | [点我](笔记/L1-05-XTuner.md)      |
-| 第6关 | OpenCompass评测InternLM-1.8B实践  | [点我](笔记/L1-06-OpenCompass.md)              |
+| 第1关 | 书生大模型全链路开源体系  | [点我](笔记/L1/L1-01-HelloIntern.md) |
+| 第2关 | 8G显存玩转书生大模型Demo  | [点我](笔记/L1/L1-02-demo.md)        |
+| 第3关 | 浦语提示词工程实践  | [点我](笔记/L1/L1-03-Prompt.md)      |
+| 第4关 | InternLM+LlamaIndex RAG实践 | [点我](笔记/L1/L1-04-LlamaIndex.md)  |
+| 第5关 | XTuner微调个人小助手认知  | [点我](笔记/L1/L1-05-XTuner.md)      |
+| 第6关 | OpenCompass评测InternLM-1.8B实践  | [点我](笔记/L1/L1-06-OpenCompass.md)              |
 
 -进阶岛：
 
-| 序号  | 名称         | 笔记链接                     |
-|-----|------------|--------------------------|
-| 第1关 | 探索InternLM 模型能力边界  |                          |
-| 第2关 | Lagent 自定义你的 Agent 智能体  | [点我](笔记/L2-02-Lagent.md) |
+| 序号  | 名称         | 笔记链接                       |
+|-----|------------|----------------------------|
+| 第1关 | 探索InternLM 模型能力边界  |                            |
+| 第2关 | Lagent 自定义你的 Agent 智能体  | [点我](笔记/L2/L2-02-Lagent.md)   |
+| 第3关 |LMDeploy 量化部署进阶实践| [点我](笔记/L2/L2-03-LMDeploy.md) |
 
 - 彩蛋岛：
 
 | 序号  | 名称         | 笔记链接   |
 |-----|------------|--------|
-| 第1关 | MindSearch快速部署  | [点我](笔记/L3-01-MindSearch.md) |
+| 第1关 | MindSearch快速部署  | [点我](笔记/L3/L3-01-MindSearch.md) |
 
 
 ## 敬请期待
