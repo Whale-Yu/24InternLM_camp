@@ -1,12 +1,13 @@
 # 书生大模型实战营-蟹老板
 
+
 ## ⭐官方出品，必属精品：
 - 闯关手册：https://aicarrier.feishu.cn/wiki/KFBSwxJ3Riu3uWkIN1jcyBoWnyf
 - internStudio：https://studio.intern-ai.org.cn/console/dashboard
 - InternLMgithub：https://github.com/InternLM/
 - 实战营github：https://github.com/InternLM/Tutorial/tree/camp3
 
-## 🦀蟹老板独家通关宝典
+## 🦀蟹老板独家通关秘籍
 
 - 🚪入门岛：
 
@@ -48,5 +49,10 @@
 | 第4关 | AI 顶会盘点 LLM 工作流  |                              |
 
 
+## 🎇恭喜，闯关通过
+- 结业证书：
+![结业证书](证书/InternLM-C3-S1847.png)
 
-## 我还在努力学习中...
+## 🛠欢迎加入一起入坑大模型
+扫我扫我快扫我！
+![结业证书](证书/MTc3ODg1OTU0ODU=.png)
