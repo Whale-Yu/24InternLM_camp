@@ -4,9 +4,6 @@
 ```bash
 cd /root
 mkdir -p model
-
-cp 模型
-
 cp -r /root/share/new_models/OpenGVLab/InternVL2-2B /root/model/
 ```
 
