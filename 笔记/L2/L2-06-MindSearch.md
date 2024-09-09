@@ -56,8 +56,8 @@ python frontend/mindsearch_gradio.py
 ## 部署到 HuggingFace Space
 流程见官方文档：
 
+https://huggingface.co/spaces/whaleyu/mindsearch
 ![img_2.png](img_2.png)
-
 
 
 
