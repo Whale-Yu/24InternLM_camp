@@ -39,7 +39,7 @@ pip install class_registry
 ## 3. 启动 MindSearch
 启动后端:
 ```yaml
-export SILICON_API_KEY=sk-azcbyvldxuomkufzbqeuowwrjhkvgnmckijwolctbosjnapa
+export SILICON_API_KEY=
 conda activate mindsearch
 cd /workspaces/mindsearch/MindSearch
 python -m mindsearch.app --lang cn --model_format internlm_silicon --search_engine DuckDuckGoSearch
