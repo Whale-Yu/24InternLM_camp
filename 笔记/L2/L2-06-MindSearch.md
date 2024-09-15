@@ -21,9 +21,11 @@ conda create -n mindsearch python=3.10 -y
 # 激活环境
 conda activate mindsearch
 # 安装依赖
-pip install -r /workspaces/mindsearch/MindSearch/requirements.txt
+pip install -r /workspaces/mindsearch/MindSearch/requirements.txt  //
 pip install class_registry
 ```
+
+需要将class_registry新增到requirements.txt 
 
 ## 2. 获取硅基流动 API Key
 
@@ -56,8 +58,7 @@ python frontend/mindsearch_gradio.py
 ## 部署到 HuggingFace Space
 流程见官方文档：
 
-https://huggingface.co/spaces/whaleyu/mindsearch
-![img_2.png](img_2.png)
-
+https://huggingface.co/spaces/whaleyu/MindSearch0915
+![img_5.png](img_5.png)
 
 
