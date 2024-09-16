@@ -26,7 +26,7 @@ conda activate lmdeploy
 lmdeploy chat /root/models/internlm2_5-7b-chat
 ```
 
-![img.png](../assets/L20301.png)
+![img.png](../L1/assets/L20301.png)
 
 ## 2、LMDeploy与InternLM2.5
 
@@ -60,7 +60,7 @@ lmdeploy serve api_server：这个命令用于启动API服务器。
 
 端口映射： ssh -CNg -L 23333:127.0.0.1:23333 root@ssh.intern-ai.org.cn -p 你的ssh端口号
 
-![img_1.png](../assets/L20302.png)
+![img_1.png](../L1/assets/L20302.png)
 
 #### 2.1.2 以命令行形式连接API服务器
 
@@ -71,7 +71,7 @@ conda activate lmdeploy
 lmdeploy serve api_client http://localhost:23333
 ```
 
-![img_2.png](../assets/L20303.png)
+![img_2.png](../L1/assets/L20303.png)
 
 #### 2.1.3 以Gradio网页形式连接API服务器
 
@@ -84,7 +84,7 @@ lmdeploy serve gradio http://localhost:23333 \
 
 端口映射：ssh -CNg -L 6006:127.0.0.1:6006 root@ssh.intern-ai.org.cn -p <你的ssh端口号>
 
-![img_3.png](../assets/L20304.png)
+![img_3.png](../L1/assets/L20304.png)
 
 ### 2.2 LMDeploy Lite
 
@@ -94,20 +94,20 @@ lmdeploy serve gradio http://localhost:23333 \
 lmdeploy chat /root/models/internlm2_5-7b-chat
 ```
 
-![img_5.png](../assets/L20306.png)
+![img_5.png](../L1/assets/L20306.png)
 使用kv cache缓存技术：
 
 ```yaml
 lmdeploy chat /root/models/internlm2_5-7b-chat --cache-max-entry-count 0.4
 ```
 
-![img_4.png](../assets/L20305.png)
+![img_4.png](../L1/assets/L20305.png)
 
 #### 2.2.2 设置在线 kv cache int4/int8 量化
 自 v0.4.0 起，LMDeploy 支持在线 kv cache int4/int8 量化，量化方式为 per-head per-token 的非对称量化。此外，通过 LMDeploy 应用 kv 量化非常简单，只需要设定 quant_policy 和cache-max-entry-count参数。目前，LMDeploy 规定 qant_policy=4 表示 kv int4 量化，quant_policy=8 表示 kv int8 量化。
 
 未设置在线 kv cache int4/int8 量化:
-![img_7.png](../assets/L20308.png)
+![img_7.png](../L1/assets/L20308.png)
 设置在线 kv cache int4/int8 量化:
 ```yaml
 lmdeploy serve api_server \
@@ -119,7 +119,7 @@ lmdeploy serve api_server \
     --server-port 23333 \
     --tp 1
 ```
-![img_6.png](../assets/L20307.png)
+![img_6.png](../L1/assets/L20307.png)
 
 
 #### 2.2.3 W4A16 模型量化和部署
@@ -184,7 +184,7 @@ lmdeploy serve api_server \
 ```
 
 在这里出现了报错：
-![img_8.png](../assets/L20309.png)
+![img_8.png](../L1/assets/L20309.png)
 
 
 ## 4、LMDeploy之FastAPI与Function call

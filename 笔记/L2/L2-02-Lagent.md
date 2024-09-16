@@ -42,13 +42,13 @@ streamlit run examples/internlm2_agent_web_demo.py
 ssh -CNg -L 8501:127.0.0.1:8501 -L 23333:127.0.0.1:23333 root@ssh.intern-ai.org.cn -p 
 
 本地打开：127.0.0.1:8501
-![img.png](../assets/L20201.png)
+![img.png](../L1/assets/L20201.png)
 
 修改参数：
-![img_1.png](../assets/L20202.png)
+![img_1.png](../L1/assets/L20202.png)
 
 效果：
-![img_2.png](../assets/L20203.png)
+![img_2.png](../L1/assets/L20203.png)
 
 ## 基于 Lagent 自定义智能体
 创建文件：
@@ -124,8 +124,8 @@ class MagicMaker(BaseAction):
 ```
 
 修改 /root/agent_camp3/lagent/examples/internlm2_agent_web_demo.py:
-![img_5.png](../assets/L20206.png)
+![img_5.png](../L1/assets/L20206.png)
 
 本地刷新并配置参数，重新对话，效果如下：
-![img_3.png](../assets/L20204.png)
-![img_4.png](../assets/L20205.png)
+![img_3.png](../L1/assets/L20204.png)
+![img_4.png](../L1/assets/L20205.png)

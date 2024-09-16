@@ -2,9 +2,9 @@
 
 ## 0、效果预览：
 使用RAG前：
-![img.png](../assets/L10401.png)
+![img.png](assets/L10401.png)
 使用RAG后：
-![img_1.png](../assets/L10402.png)
+![img_1.png](assets/L10402.png)
 
 ## 1、环境配置
 ### 1.1虚拟环境配置：
@@ -91,7 +91,7 @@ print(rsp)
 ```yaml
 python llamaindex_internlm.py
 ```
-![img.png](../assets/L10401.png)
+![img.png](assets/L10401.png)
 
 
 ## 3、LlamaIndex RAG
@@ -154,4 +154,4 @@ response = query_engine.query("xtuner是什么?")
 print(response)
 ```
 
-![img_1.png](../assets/L10402.png)
+![img_1.png](assets/L10402.png)

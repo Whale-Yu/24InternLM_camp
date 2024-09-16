@@ -2,7 +2,7 @@
 
 ## 1、开发机创建
 
-![img.png](../assets/L1-02-01.png)
+![img.png](assets/L1-02-01.png)
 
 ## 2、激活环境
 ```
@@ -46,6 +46,6 @@ while True:
 ```
 
 ## 4、实现效果
-![img_1.png](../assets/L10203.png)
+![img_1.png](assets/L10203.png)
 
 

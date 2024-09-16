@@ -67,5 +67,5 @@ python run.py --datasets ceval_gen --models hf_internlm2_chat_1_8b --debug
 
 ```
 
-![img.png](../assets/L10601.png)
-![img_1.png](../assets/L10602.png)
+![img.png](assets/L10601.png)
+![img_1.png](assets/L10602.png)

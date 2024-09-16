@@ -30,3 +30,12 @@ wget https://github.com/mlc-ai/package/releases/download/v0.9.dev0/mlc_llm_night
 wget https://github.com/mlc-ai/package/releases/download/v0.9.dev0/mlc_ai_nightly_cu122-0.15.dev404-cp311-cp311-manylinux_2_28_x86_64.whl
 pip install mlc_ai_nightly_cu122-0.15.dev404-cp311-cp311-manylinux_2_28_x86_64.whl
 pip install mlc_llm_nightly_cu122-0.1.dev1445-cp311-cp311-manylinux_2_28_x86_64.whl
+
+
+git clone https://huggingface.co/spaces/whaleyu/mindsearch
+git init
+git remote add space https://whaleyu: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@huggingface.co/spaces/whaleyu/mindsearch
+git add .
+git commit -m "update"
+git remote set-url space https://whaleyu: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@huggingface.co/spaces/whaleyu/mindsearch
+git push

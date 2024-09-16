@@ -20,4 +20,4 @@ cd /share/demo/MindSearchDuck
 python run.py
 # 将端口映射到本地 7860 端口
 ```
-![img.png](../assets/L30101.png)
+![img.png](../L1/assets/L30101.png)

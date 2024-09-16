@@ -74,7 +74,7 @@ cd /root/huixiangdou
 python3 -m huixiangdou.main --standalone
 ```
 
-![img.png](img.png)
+![img.png](assets/imgs/img.png)
 
 界面测试
 ```yaml
@@ -83,4 +83,4 @@ cd /root/huixiangdou
 python3 -m huixiangdou.gradio
 ```
 
-![img_1.png](img_1.png)
+![img_1.png](assets/imgs/img_1.png)

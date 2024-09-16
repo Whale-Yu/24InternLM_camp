@@ -59,6 +59,6 @@ python frontend/mindsearch_gradio.py
 流程见官方文档：
 
 https://huggingface.co/spaces/whaleyu/MindSearch0915
-![img_5.png](img_5.png)
+![img_5.png](assets/imgs/img_5.png)
 
 
