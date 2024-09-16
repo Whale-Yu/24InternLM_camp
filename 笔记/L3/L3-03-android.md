@@ -34,8 +34,8 @@ pip install mlc_llm_nightly_cu122-0.1.dev1445-cp311-cp311-manylinux_2_28_x86_64.
 
 git clone https://huggingface.co/spaces/whaleyu/mindsearch
 git init
-git remote add space https://whaleyu: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@huggingface.co/spaces/whaleyu/mindsearch
+git remote add space https://whaleyu:@huggingface.co/spaces/whaleyu/mindsearch
 git add .
 git commit -m "update"
-git remote set-url space https://whaleyu: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@huggingface.co/spaces/whaleyu/mindsearch
+git remote set-url space https://whaleyu:@huggingface.co/spaces/whaleyu/mindsearch
 git push
